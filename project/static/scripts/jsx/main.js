@@ -49,7 +49,7 @@ var countries = [
   {"name": "Spain"}, {"name": "Poland"}, {"name": "Haiti"}
 ];
 
-React.render(
+ReactDOM.render(
   <DynamicSearch items={ countries } />,
   document.getElementById('main')
 );
